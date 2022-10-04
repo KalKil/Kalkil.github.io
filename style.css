@@ -15,3 +15,13 @@ a{
 a:hover{
     background-color:aqua
 }
+#navbar{
+    background-color: gray;
+    color: black
+    
+}
+#navbar > a {
+    color: white;
+    padding: 9px;
+    display: inline-block;
+}

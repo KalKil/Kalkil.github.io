@@ -4,9 +4,13 @@
 body{
     font-family: 'Josefin Sans', sans-serif;
     background-color: black;
-    color:white
+    color:white;
+    margin: 0; 
 }
-
+main{
+    max-width: 4070px;
+    margin: 0 auto;
+}
 a{
     color: white;
     font-family: 'Roboto Mono', monospace;
@@ -24,4 +28,17 @@ a:hover{
     color: white;
     padding: 9px;
     display: inline-block;
+}
+
+input[type=submit]{ 
+    background-color: rgb(172, 172, 172)
+    ;  font-family: 'Roboto Mono', monospace;
+    color: white;
+}
+
+input[type=reset]{
+    background-color: rgb(172, 172, 172)
+    ;
+    font-family: 'Roboto Mono', monospace;
+    color: white;
 }

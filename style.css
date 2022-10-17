@@ -42,3 +42,16 @@ input[type=reset]{
     font-family: 'Roboto Mono', monospace;
     color: white;
 }
+
+@media screen and (max-width: 480px) {
+    #my_image{
+        width: 100vw;
+        height: auto;
+    }
+    #navbar{
+        text-align: center;
+    }
+    #my_image2{
+        float: none;
+    }
+}

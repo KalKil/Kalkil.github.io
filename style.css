@@ -54,4 +54,10 @@ input[type=reset]{
     #my_image2{
         float: none;
     }
+    #navbar { 
+        background-color: white;
+        color: black;
+        position: sticky;
+        top: 0;
+    }
 }
